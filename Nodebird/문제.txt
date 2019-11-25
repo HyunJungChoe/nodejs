@@ -1,0 +1,24 @@
+funtion 13_1()
+{
+    funtion a() {
+        console.log(b);
+        var b = 'bbb';
+        console.log(b);
+        fun b() { }
+        console.log(b);
+
+    }
+    a();
+}
+
+funtion b
+bbb
+bbb
+
+funciton 14_1()
+{
+    con
+}
+
+이 말인 즉슨 코드를 작성할 때 변수 선언문을 어느 곳에 위치시키든 실행할 때는 가장 먼저 처리된다는 말입니다.
+- 함수 선언문이 먼저 실행 - 변수 실행
