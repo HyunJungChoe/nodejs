@@ -11,9 +11,15 @@
 - []
 
 <b> 설치 </b>
+
 express learn-sequelize --view=pug
-cd learn-sequelize
-npm i 
-npm i sequelize mysql2
-npm i -g sequelize-cli
-sequelize init
+
+cd learn-sequelize 
+
+npm i   
+
+npm i sequelize mysql2 
+
+npm i -g sequelize-cli  
+
+sequelize init  
