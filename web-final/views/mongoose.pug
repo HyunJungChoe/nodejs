@@ -1,0 +1,92 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title 몽구스 서버
+    style.
+
+      h1{
+      text-align : center;
+      }
+
+      table {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+
+      table th, table td {
+        border: 1px solid black;
+      }
+  body
+  <h1> 쿵쿵따리 쿵쿵따</h1>
+
+  <hr>
+  
+ 
+    
+  
+
+
+    div
+
+      form#user-form
+        fieldset
+          legend 회원 가입 
+          div
+            input#id(type="text" placeholder="아이디")
+          div
+            input#pwd(type="password" placeholder="비밀번호")
+          div
+            input#nickname(type="text" placeholder="닉네임")
+          
+          button(type="submit") 등록
+      br
+    
+    //- 로그인 구현하려 했던 것
+
+    div 
+    
+      form#login-form
+
+        fieldset
+          legend 로그인 
+          div
+            input#id(type="text" placeholder="아이디")
+          div
+            input#pwd(type="password" placeholder="비밀번호")
+          
+          
+          button(type="submit") 로그인
+          
+
+          br 
+          br
+
+          a( href='/main') 임시 로그인으로 접속하기 
+        
+
+
+      br
+
+    table#user-list
+      thead
+        tr
+          th _id
+          th id 
+          th pwd
+          th nickname
+          
+      tbody
+        for user in users
+          tr
+            td= user._id
+            td= user.id
+            td= user.pwd
+            td= user.nickname 
+    br
+
+
+    script(src='/mongoose.js')
+    
+
+    
