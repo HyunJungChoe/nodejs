@@ -1,13 +1,18 @@
 
-
-web-filanl 
+## 최종 파일 
+web-final
 MongoDB 사용 
 
 
 
-<b> 설치한 것 들</b>
+## 실행 방법
 
-프로젝트 디렉토리 생성
+1. 몽고 디비 다운
+2.  C:\Program Files\MongoDB\Server\4.2\bin 에서 cmd 열어서 mongod  : 서버 실행
+3. 프로젝트 파일 연 후 터미널에서 npm i  ->  npm start
+
+
+## 기타 메모
 
 npm init
 
